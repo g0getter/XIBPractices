@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E7FB72B38317DA6D5A50845 /* Pods_XIBPractices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90FAE8556F29661BAC9F5FF5 /* Pods_XIBPractices.framework */; };
+		BB7599FA2792B56C00CEED73 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7599F92792B56B00CEED73 /* SecondViewController.swift */; };
+		BB7599FC2792B67800CEED73 /* CustomTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7599FB2792B67800CEED73 /* CustomTableViewController.swift */; };
 		BB7CB0662743C9DB00466AB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7CB0652743C9DB00466AB2 /* AppDelegate.swift */; };
 		BB7CB0682743C9DB00466AB2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7CB0672743C9DB00466AB2 /* SceneDelegate.swift */; };
 		BB7CB06A2743C9DB00466AB2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7CB0692743C9DB00466AB2 /* ViewController.swift */; };
@@ -14,9 +17,16 @@
 		BB7CB0702743C9DB00466AB2 /* XIBPractices.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BB7CB06E2743C9DB00466AB2 /* XIBPractices.xcdatamodeld */; };
 		BB7CB0722743C9DD00466AB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB7CB0712743C9DD00466AB2 /* Assets.xcassets */; };
 		BB7CB0752743C9DD00466AB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB7CB0732743C9DD00466AB2 /* LaunchScreen.storyboard */; };
+		BB7CB07E2743DC8200466AB2 /* SampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7CB07C2743DC8200466AB2 /* SampleViewController.swift */; };
+		BB7CB07F2743DC8200466AB2 /* SampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB7CB07D2743DC8200466AB2 /* SampleViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6C477E0E0539E58EE16AA6C9 /* Pods-XIBPractices.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XIBPractices.debug.xcconfig"; path = "Target Support Files/Pods-XIBPractices/Pods-XIBPractices.debug.xcconfig"; sourceTree = "<group>"; };
+		90FAE8556F29661BAC9F5FF5 /* Pods_XIBPractices.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XIBPractices.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6E168AD142F296DF4C1E5E8 /* Pods-XIBPractices.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XIBPractices.release.xcconfig"; path = "Target Support Files/Pods-XIBPractices/Pods-XIBPractices.release.xcconfig"; sourceTree = "<group>"; };
+		BB7599F92792B56B00CEED73 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		BB7599FB2792B67800CEED73 /* CustomTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewController.swift; sourceTree = "<group>"; };
 		BB7CB0622743C9DB00466AB2 /* XIBPractices.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XIBPractices.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB7CB0652743C9DB00466AB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BB7CB0672743C9DB00466AB2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +36,8 @@
 		BB7CB0712743C9DD00466AB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB7CB0742743C9DD00466AB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BB7CB0762743C9DD00466AB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB7CB07C2743DC8200466AB2 /* SampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleViewController.swift; sourceTree = "<group>"; };
+		BB7CB07D2743DC8200466AB2 /* SampleViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SampleViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +45,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E7FB72B38317DA6D5A50845 /* Pods_XIBPractices.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BB7599F82792925700CEED73 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BB7CB0692743C9DB00466AB2 /* ViewController.swift */,
+				BB7599F92792B56B00CEED73 /* SecondViewController.swift */,
+				BB7599FB2792B67800CEED73 /* CustomTableViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		BB7CB0592743C9DB00466AB2 = {
 			isa = PBXGroup;
 			children = (
 				BB7CB0642743C9DB00466AB2 /* XIBPractices */,
 				BB7CB0632743C9DB00466AB2 /* Products */,
+				C53C5289A29F7D95768EF155 /* Pods */,
+				E2EC80904947628680B115B5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,16 +83,35 @@
 		BB7CB0642743C9DB00466AB2 /* XIBPractices */ = {
 			isa = PBXGroup;
 			children = (
+				BB7599F82792925700CEED73 /* Views */,
 				BB7CB0652743C9DB00466AB2 /* AppDelegate.swift */,
 				BB7CB0672743C9DB00466AB2 /* SceneDelegate.swift */,
-				BB7CB0692743C9DB00466AB2 /* ViewController.swift */,
 				BB7CB06B2743C9DB00466AB2 /* Main.storyboard */,
 				BB7CB0712743C9DD00466AB2 /* Assets.xcassets */,
 				BB7CB0732743C9DD00466AB2 /* LaunchScreen.storyboard */,
 				BB7CB0762743C9DD00466AB2 /* Info.plist */,
 				BB7CB06E2743C9DB00466AB2 /* XIBPractices.xcdatamodeld */,
+				BB7CB07C2743DC8200466AB2 /* SampleViewController.swift */,
+				BB7CB07D2743DC8200466AB2 /* SampleViewController.xib */,
 			);
 			path = XIBPractices;
+			sourceTree = "<group>";
+		};
+		C53C5289A29F7D95768EF155 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6C477E0E0539E58EE16AA6C9 /* Pods-XIBPractices.debug.xcconfig */,
+				A6E168AD142F296DF4C1E5E8 /* Pods-XIBPractices.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E2EC80904947628680B115B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				90FAE8556F29661BAC9F5FF5 /* Pods_XIBPractices.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,6 +121,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BB7CB0792743C9DD00466AB2 /* Build configuration list for PBXNativeTarget "XIBPractices" */;
 			buildPhases = (
+				5F08CBF07E31252FC3D3E54F /* [CP] Check Pods Manifest.lock */,
 				BB7CB05E2743C9DB00466AB2 /* Sources */,
 				BB7CB05F2743C9DB00466AB2 /* Frameworks */,
 				BB7CB0602743C9DB00466AB2 /* Resources */,
@@ -129,17 +174,46 @@
 			files = (
 				BB7CB0752743C9DD00466AB2 /* LaunchScreen.storyboard in Resources */,
 				BB7CB0722743C9DD00466AB2 /* Assets.xcassets in Resources */,
+				BB7CB07F2743DC8200466AB2 /* SampleViewController.xib in Resources */,
 				BB7CB06D2743C9DB00466AB2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5F08CBF07E31252FC3D3E54F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XIBPractices-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BB7CB05E2743C9DB00466AB2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB7599FA2792B56C00CEED73 /* SecondViewController.swift in Sources */,
+				BB7599FC2792B67800CEED73 /* CustomTableViewController.swift in Sources */,
+				BB7CB07E2743DC8200466AB2 /* SampleViewController.swift in Sources */,
 				BB7CB06A2743C9DB00466AB2 /* ViewController.swift in Sources */,
 				BB7CB0662743C9DB00466AB2 /* AppDelegate.swift in Sources */,
 				BB7CB0702743C9DB00466AB2 /* XIBPractices.xcdatamodeld in Sources */,
@@ -287,6 +361,7 @@
 		};
 		BB7CB07A2743C9DD00466AB2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C477E0E0539E58EE16AA6C9 /* Pods-XIBPractices.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -306,6 +381,7 @@
 		};
 		BB7CB07B2743C9DD00466AB2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6E168AD142F296DF4C1E5E8 /* Pods-XIBPractices.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
